@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # --- TMDB CONFIG ---
 TMDB_API_BASE_URL = "https://api.themoviedb.org/3"
-BEARER_TOKEN = "your_token_here"  # Replace with your TMDB API Read Access Token
+BEARER_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMTQ3ZDUzNmE4ODZlNzhmZWVhODEwM2MwMTQ2MDFiMiIsIm5iZiI6MTc0MjU4NjY0Mi4yNjEsInN1YiI6IjY3ZGRjMzEyMDUxY2JhOTA2NmY1NjVlOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.s65IRbAthvobyw0BlQBz0qbisHXz5Zu9_xDqNAeSp94"  # Replace with your TMDB API Read Access Token
 
 headers = {
     "Authorization": f"Bearer {BEARER_TOKEN}",
